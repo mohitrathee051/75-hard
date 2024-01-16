@@ -79,7 +79,7 @@ const MenuIcon = styled.div`
 `;
 
 const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(true);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
